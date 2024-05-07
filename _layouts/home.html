@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+  
+    <style>
+
+
+        /* Two column layout */
+        .two-columns {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .column {
+          text-align: center;
+          width: calc(50% - 10px); /* Adjust width and spacing */
+          margin-bottom: 20px; /* Adjust spacing between columns */
+        }
+        .image-container {
+          text-align: left;
+        }
+        .image-container img {
+          max-width: 110%;
+          height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <section class="section">
+        <div class="two-columns">
+          <div class="column">
+            <br><br><br>
+            <br><br>
+            <i class="fas fa-calendar", style="font-size: 80px;"></i>
+            <h2><p><a href="URL_HERE">17-18 June 2024</a></p></h2>
+            <br><br>
+            <i class="fas fa-map-marker-alt", style="font-size: 80px;"></i>
+            <h2><p><a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics">MPI for Empirical Aesthetics</a></p></h2>
+
+          </div>
+          <div class="column image-container">
+            <img src="assets/images/brain.png" alt="Image">
+          </div>
+        </div>
+      </section>
+        {{ content }}
+    </div>
+    <div class="two-columns">
+      <div class="column", style="text-align: right">
+        <div class="bottom-button">
+          <h2><a href="/program">View the Program</a><h2>
+        </div>
+      </div>
+      <div class="column", style="text-align: left">
+        <div class="bottom-button">
+          <h2><a href="/Registration">Register Now</a><h2>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>

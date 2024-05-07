@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 150px 60px;
+            text-align: center;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        a {
+            color: #30D2D7; /* Set the desired color (e.g., red) */
+            text-decoration: none; /* Remove underline from hyperlinks */
+              transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        /* Change the color of hyperlinks when hovered */
+        a:hover {
+            color: #D43F98; /* Set the color when the link is hovered (e.g., green) */
+        }
+
+
+        /* CSS styles for the button */
+        .bottom-button {
+            margin-top: 10px; /* Add top margin for spacing */
+        }
+
+
+        .bottom-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #D43F98; /* Button background color */
+            color: #000000; /* Button text color */
+            text-decoration: none; /* Remove underline from the link */
+            border-radius: 5px; /* Rounded corners for button */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .bottom-button a:hover {
+            background-color: #30D2D7; /* Darker background color on hover */
+        }
+
+
+
+        header {
+            background-color: #252525; /* Dark gray header */
+            padding: 20px 30px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* Ensure the header stays on top of other content */
+
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 20px; /* Add space between title and nav */
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+          flex: 1; /* Allow the main content area to grow to fill remaining space */
+          padding: 20px;
+          text-align: center;
+          overflow-y: scroll;
+      }
+        footer {
+            background-color: #252525; /* Dark gray footer */
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #30D2D7; font-size: 36px; margin-top: 0;">Computational Methods for Brain Connectivity Modelling</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/Program/">Program</a>
+            <a href="/registration/">Registration</a>
+            <a href="/ressources/">Ressources</a>
+            <a href="/team/">Team</a>
+
+            <!-- Add more links as needed -->
+        </nav>
+    </header>
+    <div class="container">
+        {{ content }}
+    </div>
+    <footer>
+      Questions about the workshop? <br>
+      Contents: <a href="mailto:carlos.coronel@gbhi.org">carlos.coronel@gbhi.org </a> |
+      Organisation: <a href="mailto:jan-gabriel.hartel@ae.mpg.de">jan-gabriel.hartel@ae.mpg.de</a>
+    </footer>
+</body>
+</html>
