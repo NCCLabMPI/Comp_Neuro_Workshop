@@ -8,4 +8,4 @@ A laptop is sufficient for participation.
 
 # Ressources
 
-Didactic ressources tba
+Didactic resources tba
