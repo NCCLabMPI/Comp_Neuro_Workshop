@@ -22,9 +22,9 @@ title:
 email: jangabrielhartel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Computational Methods for Brain Connectivity Modelling Workshop at Max Planck institute for Empirical Aesthetics.
-baseurl: "/WS_new" # the subpath of your site, e.g. /blog
-url: "https://jghartel.github.io/" # the base hostname & protocol for your site, e.g. http://example.comtwitter_username: jekyllrb
 
+url: "https://jghartel.github.io/" # the base hostname & protocol for your site, e.g. http://example.comtwitter_username: jekyllrb
+baseurl: "/WS" # the subpath of your site, e.g. /blog
 github_username:  jghartel
 
 # Build settings
