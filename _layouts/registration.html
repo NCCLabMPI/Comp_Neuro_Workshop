@@ -15,7 +15,7 @@ layout: default
       max-width: 400px;
       margin: 0 auto;
       background-color:  #252525; /* Dark background color */
-      padding: 20px;
+      padding: 10px 15px 10px 15px;
       border-radius: 8px;
     }
     /* Form input fields */
@@ -37,9 +37,9 @@ layout: default
     /* Form submit button */
     input[type="submit"] {
       font-size: 20px;
-      background-color: #D43F98;
+      background-color: #30D2D7;
       color: black;
-      padding: 20px 20px;
+      padding: 10px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
@@ -48,35 +48,95 @@ layout: default
     }
     /* Form submit button on hover */
     input[type="submit"]:hover {
-      background-color: #30D2D7;
+      background-color: #D43F98;
+    }
+
+    select { /* Add select here */
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #eee; /* Light background color */
+      color: #333; /* Dark text color */
+    }
+    /* Content container */
+    .content-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left;
     }
   </style>
 </head>
 
 
 <body>
-  <br><br><br><br>
-  <h1 class="title">{{ page.title }}</h1>
+  <div class="sidebar">
+    <!-- Add your image here -->
+    <img src="assets/images/brain.png" alt="Image" style="width:80%; height:auto;">
+
+    <!-- Add your information here -->
+    <br>
+    17-18 June 2024
+    <br><br>
+
+    <a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics"> MPI for Empirical Aesthetics <br> Grüneburgweg 14</a>
+     <br> Frankfurt am Main
+  </div>
+
+
+
+  <div class="content-container">
+        All registered participants will be able to attend the workshop online. Corresponding links will be provided by email. <br>
+      If you want to attend in presence, mind that only a limited number of spaces is available, which will be filled on a first-come first-serve basis.
+    </p>
+  </div>
     <section class="section">
 
       <div class="form-container">
 
         <form action="https://formspree.io/f/xoqgyeza" method="POST">
-          <label for="name">Name:</label>
+          <label for="name">Name*:</label>
           <input type="text" id="name" name="name" required><br>
 
-          <label for="email">Email:</label>
+          <label for="email">Email*:</label>
           <input type="email" id="email" name="email" required><br>
 
           <label for="aff">Affiliation:</label>
           <input type="aff" id="aff" name="aff"><br>
 
+          <label for="attendance">Attendance*:</label>
+          <select id="attendance" name="attendance" required>
+            <option value="">Select...</option>
+            <option value="online">Online</option>
+            <option value="in_person">In Person</option>
+          </select>
+
           <label for="message">Message:</label>
           <textarea id="message" name="message"></textarea><br>
-          <br>
+
           <input type="submit" value="Submit">
+
         </form>
       </div>
     </section>
+
+    <br><br><br>
+
+    <div class="two-columns">
+      <div class="column", style="text-align: right">
+        <div class="bottom-button">
+          <h2><a href="{{ site.baseurl }}/team"> Get to know the Team </a><h2>
+        </div>
+      </div>
+      <div class="column", style="text-align: left">
+        <div class="bottom-button">
+          <h2><a href="{{ site.baseurl }}/materials"> See the Materials </a><h2>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

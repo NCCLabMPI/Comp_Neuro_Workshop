@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
 
         body {
-
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 150px 60px;
+            padding: 0;
             text-align: center;
-            overflow-y: auto; /* Enable vertical scrolling */
+            overflow-y: scroll; /* Enable vertical scrolling */
+        }
+        .container {
+            max-width: 50%;
+            margin: 140px 25% 100px 25%; /* Add top and bottom margin here */
+            padding: 0 60px; /* Add left and right padding here */
+        }
+
+
+        /* Two column layout */
+        .two-columns {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .column {
+          text-align: center;
+          width: calc(50% - 10px); /* Adjust width and spacing */
+          margin-bottom: 20px; /* Adjust spacing between columns */
         }
 
         a {
@@ -31,7 +49,7 @@
 
         /* CSS styles for the button */
         .bottom-button {
-            margin-top: 10px; /* Add top margin for spacing */
+            margin-top: 0px; /* Add top margin for spacing */
         }
 
 
@@ -53,7 +71,7 @@
 
         header {
             background-color: #252525; /* Dark gray header */
-            padding: 20px 30px;
+            padding: 15px 20px 15px 20px;
             text-align: center;
             position: fixed;
             top: 0;
@@ -62,18 +80,13 @@
             z-index: 1000; /* Ensure the header stays on top of other content */
 
         }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
         nav {
-            margin-top: 20px; /* Add space between title and nav */
+            margin-top: 0px; /* Add space between title and nav */
         }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 10px 20px 10px 20px;
         }
         nav a:hover {
             background-color: #555;
@@ -95,10 +108,22 @@
             width: 100%;
 
         }
-        .container {
-            max-width: 1000px;
-            padding: 20px;
+
+        /* Sidebar */
+        .sidebar {
+          position: fixed; /* Fixed position */
+          top: 140px; /* Align to the top */
+          left: 20px; /* Align to the left */
+          width: 20%; /* Adjust width */
+          height: auto; /* Full height */
+          padding: 0px 0px 20px 0px; /* Add some padding */
+          color: #eee; /* Light text color */
+          overflow: auto; /* Enable scrolling if content is too tall */
+          text-align: center;
+          border: 10px solid #252525; /* Add a thick border */
+          border-radius: 10px; /* Add rounded corners */
         }
+
     </style>
 </head>
 <body>
@@ -108,7 +133,7 @@
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/program">Program</a>
             <a href="{{ site.baseurl }}/registration">Registration</a>
-            <a href="{{ site.baseurl }}/resources">Resources</a>
+            <a href="{{ site.baseurl }}/materials">Materials</a>
             <a href="{{ site.baseurl }}/team">Team</a>
 
             <!-- Add more links as needed -->

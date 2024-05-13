@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +14,8 @@ layout: default
         margin-bottom: 30px;
       }
       .speaker {
+        display: flex; /* Add this */
+        align-items: start; /* Add this */
         margin-bottom: 50px;
       }
       .speaker img {
@@ -22,7 +23,9 @@ layout: default
         width: 150px;
         height: 150px;
         margin-right: 20px;
-        float: left;
+      }
+      .speaker div { /* Add this */
+        flex-grow: 1; /* Add this */
       }
       .speaker h2 {
         font-size: 24px;
@@ -36,33 +39,96 @@ layout: default
   </head>
   <body>
 
+    <div class="sidebar">
+      <!-- Add your image here -->
+      <img src="assets/images/brain.png" alt="Image" style="width:80%; height:auto;">
 
-  <div class="speaker">
-    <img src="./assets/images/Carlos.png" alt="Carlos">
-    <h2>Carlos</h2>
-    <p>B.Sc. in Biology at the University of Carabobo (Venezuela), Ph.D. in Biophysics and Computational Biology at the University of Valparaíso, Postdoctoral Researcher at the Latin American Brain Health Institute (BrainLat, Adolfo Ibañez University), and Atlantic Fellow for Equity in Brain Health (Trinity College Dublin, and University of San Francisco California). Carlos’ research interests are computational modeling of aging and dementia, biophysical models of chemical neuromodulation, and theoretical neuroscience. Carlos studies the brain using mathematical models, tools from graph theory, and computational neuroscience.</p>
-  </div>
+      <!-- Add your information here -->
+      <br>
+      17-18 June 2024
+      <br><br>
 
-  <div class="speaker">
-    <img src="./assets/images/Ruben.png" alt="Ruben">
-    <h2>Ruben</h2>
-    <p>Post-doc at the Paris Brain Institute (ICM). BSc in Biology (Universidad de Chile), MSc in Biological Sciences (Universidad de Chile), PhD in Biophysics and Computational Biology (Universidad de Valparaíso, Chile). Ruben's main interests are Computational Neuroscience, Consciousness, Complex Systems, and Theoretical Biology.</p>
-  </div>
+      <a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics"> MPI for Empirical Aesthetics <br> Grüneburgweg 14</a>
+       <br> Frankfurt am Main
+    </div>
+
 
   <div class="speaker">
     <img src="./assets/images/Ryszard.png" alt="Ryszard Auksztulewicz">
+    <div> <!-- Add this -->
     <h2>Ryszard Auksztulewicz</h2>
-    <p>Neuroscientist at Maastricht University & Free University Berlin specializing in the neural mechanisms of prediction, attention, and memory. His work combines empirical research methods from cognitive neuroscience (EEG, fMRI, MEG, ECoG, TMS) and systems neuroscience (electrophysiology, calcium imaging) with computational modeling (Bayesian models of neural and behavioral data) and multivariate techniques (decoding). In his free time, he enjoys cooking and adventurous music.</p>
+
+        <p>Neuroscientist at Maastricht University & Free University Berlin specializing in the neural mechanisms of prediction, attention, and memory. His work combines empirical research methods from cognitive neuroscience (EEG, fMRI, MEG, ECoG, TMS) and systems neuroscience (electrophysiology, calcium imaging) with computational modeling (Bayesian models of neural and behavioral data) and multivariate techniques (decoding). In his free time, he enjoys cooking and adventurous music.</p>
+        <p><a href="https://scholar.google.de/citations?user=Z3ZrDbsAAAAJ&hl=en">Scholar</a> |
+          <a href="  https://www.ewi-psy.fu-berlin.de/psychologie/arbeitsbereiche/neurocom_neuroimag/team/visiting-professor/rauksztulewicz/index.html">FU Berlin</a></p>
+      </div> <!-- Add this -->
   </div>
 
   <div class="speaker">
+    <img src="./assets/images/Carlos.png" alt="Carlos">
+    <div> <!-- Add this -->
+      <h2>Carlos Coronel</h2>
+      <p>B.Sc. in Biology at the University of Carabobo (Venezuela), Ph.D. in Biophysics and Computational Biology at the University of Valparaíso, Postdoctoral Researcher at the Latin American Brain Health Institute (BrainLat, Adolfo Ibañez University), and Atlantic Fellow for Equity in Brain Health (Trinity College Dublin, and University of San Francisco California). Carlos’ research interests are computational modeling of aging and dementia, biophysical models of chemical neuromodulation, and theoretical neuroscience. Carlos studies the brain using mathematical models, tools from graph theory, and computational neuroscience.</p>
+      <p><a href="https://scholar.google.com/citations?user=dBnWpTIAAAAJ&hl=en">Scholar</a> |
+      <a href="https://brainlat.uai.cl/profesor/carlos-coronel/">Brainlat</a> |
+      <a href="https://www.gbhi.org/profiles/carlos-coronel">GBHI</a></p>
+
+    </div> <!-- Add this -->
+  </div>
+
+
+  <div class="speaker">
     <img src="./assets/images/Marilyn.png" alt="Marilyn">
-    <h2>Marilyn</h2>
-    <p>Marilyn is a Postdoctoral Research Assistant in the Network Science Institute at Northeastern
-  University London. She has explored a wide range of scientific questions, including healthy
-  aging, frontotemporal dementia, and the effects of transcranial ultrasound stimulation, a novelty
-  non-invasive neuromodulation technique. Her research has integrated data analysis with
-  multivariate information theory, statistics, machine learning, and whole-brain modeling.</div>
+    <div> <!-- Add this -->
+    <h2>Marilyn Gatica</h2>
+
+      <p>Marilyn is a Postdoctoral Research Assistant in the Network Science Institute at Northeastern
+      University London. She has explored a wide range of scientific questions, including healthy
+      aging, frontotemporal dementia, and the effects of transcranial ultrasound stimulation, a novelty
+      non-invasive neuromodulation technique. Her research has integrated data analysis with
+      multivariate information theory, statistics, machine learning, and whole-brain modeling.
+      <p><a href="https://scholar.google.com/citations?user=GDW5LSsAAAAJ&hl=es">Scholar</a> |
+      <a href="  https://www.nulondon.ac.uk/faculty/marilyn-gatica/">NU London</a></p>
+
+      </div> <!-- Add this -->
+    </div>
+
+
+  <div class="speaker">
+    <img src="./assets/images/Ruben.png" alt="Ruben">
+    <div> <!-- Add this -->
+      <h2>Rubén Herzog</h2>
+      <p>Post-doc at the Paris Brain Institute (ICM). BSc in Biology (Universidad de Chile), MSc in Biological Sciences (Universidad de Chile), PhD in Biophysics and Computational Biology (Universidad de Valparaíso, Chile). Ruben's main interests are Computational Neuroscience, Consciousness, Complex Systems, and Theoretical Biology.</p>
+      <p><a href="https://scholar.google.com/citations?user=GDW5LSsAAAAJ&hl=es">Scholar</a></p>
+    </div> <!-- Add this -->
+  </div>
+
+  <hr><br><br>
+
+
+  <div class="speaker">
+    <img src="./assets/images/Jan-Gabriel.png" alt="Jan-Gabriel Hartel">
+    <div> <!-- Add this -->
+      <h2>Jan-Gabriel Hartel</h2>
+      <p>Jan-Gabriel holds a B.Sc. and M.Sc. in Physics from Paderborn University. He works as a Research Associate in the NCCLab at the Max Planck Institute for Empirical Aesthetics, developing novel experimental and theoretical approaches to consciousness.</p>
+    </div> <!-- Add this -->
+  </div>
+
+
+  <div class="two-columns">
+    <div class="column", style="text-align: right">
+      <div class="bottom-button">
+        <h2><a href="{{ site.baseurl }}/program">View the Program</a><h2>
+      </div>
+    </div>
+    <div class="column", style="text-align: left">
+      <div class="bottom-button">
+        <h2><a href="{{ site.baseurl }}/registration">Register Now</a><h2>
+      </div>
+    </div>
+  </div>
+
+
 
   </body>
 </html>

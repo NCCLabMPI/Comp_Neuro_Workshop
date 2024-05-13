@@ -7,20 +7,15 @@ layout: default
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
+        .container{
+          max-width: 70%;
+          margin: 140px auto 100px auto; /* Add top and bottom margin here */
+        }
 
-        /* Two column layout */
-        .two-columns {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-        }
-        .column {
-          text-align: center;
-          width: calc(50% - 10px); /* Adjust width and spacing */
-          margin-bottom: 20px; /* Adjust spacing between columns */
-        }
+        
         .image-container {
           text-align: left;
         }
@@ -36,22 +31,19 @@ layout: default
       <section class="section">
         <div class="two-columns">
           <div class="column">
-            <br><br><br>
             <br><br>
             <i class="fas fa-calendar", style="font-size: 80px;"></i>
             <h2>17-18 June 2024</h2>
-            <br><br>
+            <br>
             <i class="fas fa-map-marker-alt", style="font-size: 80px;"></i>
-            <h2><p><a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics">MPI for Empirical Aesthetics</a></p></h2>
+            <h2><p>MPI for Empirical Aesthetics <br>
+            <a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics">Grüneburgweg 14, <br> Frankfurt am Main</a></p></h2>
 
           </div>
           <div class="column image-container">
             <img src="assets/images/brain.png" alt="Image">
           </div>
         </div>
-      </section>
-        {{ content }}
-    </div>
     <div class="two-columns">
       <div class="column", style="text-align: right">
         <div class="bottom-button">
@@ -63,6 +55,7 @@ layout: default
           <h2><a href="{{ site.baseurl }}/registration">Register Now</a><h2>
         </div>
       </div>
+    </div>
     </div>
 
 
