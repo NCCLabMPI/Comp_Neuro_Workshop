@@ -35,7 +35,11 @@ layout: program
   - Neural mass models: Wilson-Cowan and Jansen & Rit.
   - Basic elements of whole-brain models and model fitting.
 
-- **17:30-19:00:** Late afternoon networking and opportunities for cross-site collaborations.
+### Evening (16:30-21:30) - Participation Optional
+- **16:30-18:30:** Late afternoon networking and opportunities for cross-site collaborations.
+- **20:30-21:30:** Brain teasers: Computational approaches to consciousness.
+
+
 
 ---
 
