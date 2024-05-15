@@ -1,5 +1,6 @@
 ---
 layout: materials
+title: Workshop Materials
 ---
 
 This information can alteratively be accessed [via GitHub](https://github.com/carlosmig/comp_neuro_workshop)
