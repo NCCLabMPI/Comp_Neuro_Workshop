@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WS_new
+title: Computational Neuroscience Workshop
 email: jangabrielhartel@gmail.com
 description: Computational Methods for Brain Connectivity Modelling Workshop at Max Planck institute for Empirical Aesthetics.
 #url: "https://jghartel.github.io/" # the base hostname & protocol for your site, e.g. http://example.comtwitter_username: jekyllrb
-baseurl: "/WS_new" # the subpath of your site, e.g. /blog
+baseurl: "/comp_neuro_workshop" # the subpath of your site, e.g. /blog
 github_username:  jghartel
 
 # Build settings
