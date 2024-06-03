@@ -88,68 +88,12 @@ layout: default
      <br> Frankfurt am Main
   </div>
 
-  <div class="content-container", text-align='justified'>
-      All registered participants will be able to attend the workshop online. Corresponding links will be provided by email. <br>
-      If you want to attend in presence, mind that only a limited number of spaces is available, which will be filled on a first-come first-serve basis.
-      Due to high interest, we are currently working on making more places available for attendance in person.<br><br>
-      The <b>application deadline is on May 31</b>, we will get back to you in the following week.
+  <div class="content-container", text-align='justified', line-height= 1.4>
+      Thank you for your application to the workshop. <br>
+       We will get back to you in the following days. <br>
+       If you have not received a mail by Friday, 7 June, feel free to reach out to us.
       <br>
   </div>
 
-  <div class="form-container">
-    <form action="https://formspree.io/f/xoqgyeza" method="POST">
-      <label for="name">Name*:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email*:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="aff">Affiliation:</label>
-      <input type="text" id="aff" name="aff">
-
-      <label for="attendance">Attendance Format*:</label>
-      <select id="attendance" name="attendance" required>
-        <option value="">Select...</option>
-        <option value="online">Online</option>
-        <option value="in_person">In Person</option>
-      </select>
-
-      <label for="experience">Experience with Python and Matlab:</label>
-      <select id="experience" name="experience">
-        <option value="">Select...</option>
-        <option value="none">None</option>
-        <option value="beginner">Beginner</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="advanced">Advanced</option>
-      </select>
-
-      <label for="background">Background:</label>
-      <select id="background" name="background" onchange="handleSelection(this, 'customBackground')">
-        <option value="">Select...</option>
-        <option value="neuroscience">Neuroscience</option>
-        <option value="physics">Physics</option>
-        <option value="biology">Biology</option>
-        <option value="mathematics">Mathematics</option>
-        <option value="other">Other (Please Specify)</option>
-      </select>
-      <input type="text" id="customBackground" name="customBackground" style="display: none;">
-
-      <label for="career_stage">Stage of Career:</label>
-      <select id="career_stage" name="career_stage" onchange="handleSelection(this, 'customCareerStage')">
-        <option value="">Select...</option>
-        <option value="bachelor_student">Bachelor Student</option>
-        <option value="master_student">Master Student</option>
-        <option value="phd_student">PhD Student</option>
-        <option value="postdoc">Postdoc</option>
-        <option value="other">Other (Please Specify)</option>
-      </select>
-      <input type="text" id="customCareerStage" name="customCareerStage" style="display: none;">
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
-
-      <input type="submit" value="Submit">
-    </form>
-  </div>
 </body>
 </html>

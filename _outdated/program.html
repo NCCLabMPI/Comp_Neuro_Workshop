@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop Program</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <style>
+
+        body {
+            background-color: #010010;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-y: scroll; /* Enable vertical scrolling */
+        }
+        .container {
+            max-width: 50%;
+            margin: 140px 25% 100px 25%; /* Add top and bottom margin here */
+            padding: 0 60px; /* Add left and right padding here */
+        }
+
+
+        /* Two column layout */
+        .two-columns {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .column {
+          text-align: center;
+          width: calc(50% - 10px); /* Adjust width and spacing */
+          margin-bottom: 20px; /* Adjust spacing between columns */
+        }
+
+        a {
+            color: #30D2D7; /* Set the desired color (e.g., red) */
+            text-decoration: none; /* Remove underline from hyperlinks */
+              transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        /* Change the color of hyperlinks when hovered */
+        a:hover {
+            color: #D43F98; /* Set the color when the link is hovered (e.g., green) */
+        }
+
+
+        /* CSS styles for the button */
+        .bottom-button {
+            margin-top: 0px; /* Add top margin for spacing */
+        }
+
+
+        .bottom-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #D43F98; /* Button background color */
+            color: #000000; /* Button text color */
+            text-decoration: none; /* Remove underline from the link */
+            border-radius: 5px; /* Rounded corners for button */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .bottom-button a:hover {
+            background-color: #30D2D7; /* Darker background color on hover */
+        }
+
+
+
+        header {
+            background-color: #252525; /* Dark gray header */
+            padding: 15px 20px 15px 20px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* Ensure the header stays on top of other content */
+
+        }
+        nav {
+            margin-top: 0px; /* Add space between title and nav */
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+          flex: 1; /* Allow the main content area to grow to fill remaining space */
+          padding: 20px;
+          text-align: center;
+          overflow-y: scroll;
+      }
+        footer {
+            background-color: #252525; /* Dark gray footer */
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+
+        /* Sidebar */
+        .sidebar {
+          position: fixed; /* Fixed position */
+          top: 140px; /* Align to the top */
+          left: 20px; /* Align to the left */
+          width: 20%; /* Adjust width */
+          height: auto; /* Full height */
+          padding: 0px 0px 20px 0px; /* Add some padding */
+          color: #eee; /* Light text color */
+          overflow: auto; /* Enable scrolling if content is too tall */
+          text-align: center;
+          border: 10px solid #252525; /* Add a thick border */
+          border-radius: 10px; /* Add rounded corners */
+          line-height: 1.3;
+          background-color: #010010;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #30D2D7; font-size: 36px; margin-top: 0;">Computational Methods for Brain Connectivity Modelling</h1>
+        <nav>
+            <a href="/comp_neuro_workshop/">Home</a>
+            <a href="/comp_neuro_workshop/program">Program</a>
+            <a href="/comp_neuro_workshop/registration">Registration</a>
+            <a href="/comp_neuro_workshop/materials">Materials</a>
+            <a href="/comp_neuro_workshop/team">Team</a>
+
+            <!-- Add more links as needed -->
+        </nav>
+    </header>
+    <div class="container">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Define custom styles for the workshop program page */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: left;
+      line-height: 1.4;
+    }
+
+    h1, h2, h3 {
+      color: #30D2D7;
+    }
+    .two-columns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      line_height: 1.2;
+    }
+    .column {
+      text-align: left;
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+
+    }
+    .speaker {
+      color: #D43F98; /* Orange color (adjust to your preferred color) */
+      font-weight: bold; /* Make speaker names bold */
+    }
+    ul{
+      line-height: 1.3;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <!-- Sidebar -->
+ <div class="sidebar">
+   <!-- Add your image here -->
+   <img src="assets/images/brain.png" alt="Image" style="width:80%; height:auto;">
+
+   <!-- Add your information here -->
+   <br>
+   17-18 June 2024
+   <br><br>
+
+   <a href="https://www.google.com/maps?q=MPI+for+Empirical+Aesthetics"> MPI for Empirical Aesthetics <br> Grüneburgweg 14</a>
+    <br> Frankfurt am Main
+ </div>
+
+  <section class="section">
+
+    <h2 id="day-1-monday">Day 1 (Monday)</h2>
+
+<h3 id="morning-845-1200">Morning (8:45-12:00)</h3>
+
+<ul>
+  <li><strong>8:45-9:15:</strong> Registration and welcome</li>
+  <li><strong>9:15-9:30:</strong> Opening words and introduction  <span class="speaker">(Lucía &amp; Agustín)</span></li>
+  <li><strong>9:30-10:35:</strong> Information Theory <span class="speaker">(Rubén, Marilyn)</span>
+    <ul>
+      <li>Fundamentals of information theory.</li>
+      <li>Introduction to high-order interactions.</li>
+    </ul>
+  </li>
+  <li><strong>10:35-10:55:</strong> 20-minute coffee break</li>
+  <li><strong>10:55-12:00:</strong> Examples of applications of high-order functional connectivity <span class="speaker">(Rubén, Marilyn)</span>
+    <ul>
+      <li>General overview of the field.</li>
+      <li>Aging and neurodegeneration.</li>
+      <li>Psychedelics and consciousness.</li>
+      <li>Transcranial ultrasound stimulation.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="lunch-1200-1330">Lunch (12:00-13:30)</h3>
+
+<h3 id="afternoon-1330-1600">Afternoon (13:30-16:00)</h3>
+
+<ul>
+  <li><strong>13:30-14:40:</strong> Tutorial I: information theory applied to fMRI and/or M/EEG data <span class="speaker">(Rubén, Marilyn)</span></li>
+  <li><strong>14:40-15:00:</strong> 20-minute coffee break</li>
+  <li><strong>15:00-16:00:</strong> Basics of whole-brain modeling Part I <span class="speaker">(Carlos)</span>
+    <ul>
+      <li>Why use mathematical models in neuroscience?</li>
+      <li>Different scales of modeling: neuron-level, neural masses, and whole-brain.</li>
+      <li>Neural mass models: Wilson-Cowan and Jansen &amp; Rit.</li>
+      <li>Basic elements of whole-brain models and model fitting.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="evening-1630-2130---participation-optional">Evening (16:30-21:30) - Participation Optional</h3>
+<ul>
+  <li><strong>16:30-18:30:</strong> Late afternoon networking and opportunities for cross-site collaborations.</li>
+  <li><strong>20:30-21:30:</strong> Brain teasers: Computational approaches to consciousness.</li>
+</ul>
+
+<hr />
+
+<h2 id="day-2-tuesday">Day 2 (Tuesday)</h2>
+<h3 id="morning-900-1230">Morning (9:00-12:30)</h3>
+
+<ul>
+  <li><strong>9:00-9:50:</strong> Basics of connectivity analyses Part I <span class="speaker">(Ryszard)</span>
+    <ul>
+      <li>Types of connectivity (structural, functional, effective).</li>
+      <li>Model-free and model-based connectivity measures.</li>
+      <li>Modeling dynamics of brain activity through differential equations.</li>
+      <li>Dynamic causal modeling for fMRI data.</li>
+    </ul>
+  </li>
+  <li><strong>9:50-10:10:</strong> 20-minute break</li>
+  <li><strong>10:10-11:00:</strong> Basics of connectivity analyses Part II <span class="speaker">(Ryszard)</span>
+    <ul>
+      <li>Dynamic causal modeling for M/EEG data.</li>
+      <li>Model comparison.</li>
+      <li>Group analyses.</li>
+      <li>Real examples of modeling.</li>
+    </ul>
+  </li>
+  <li><strong>11:00-12:00:</strong> Tutorial III: DCM for fMRI and/or M/EEG, depending on participants’ interests <span class="speaker">(Ryszard)</span></li>
+</ul>
+
+<h3 id="lunch-1200-1330-1">Lunch (12:00-13:30)</h3>
+
+<h3 id="afternoon-1330-1615">Afternoon (13:30-16:15)</h3>
+
+<ul>
+  <li><strong>13:30-14:30:</strong> Examples of whole-brain modeling <span class="speaker">(Carlos)</span>
+    <ul>
+      <li>Aging and neurodegeneration.</li>
+      <li>Brain clocks.</li>
+    </ul>
+  </li>
+  <li><strong>14:30-14:50:</strong> 20-minute coffee break</li>
+  <li><strong>14:50-15:50:</strong> Tutorial III: Example of whole-brain modeling and fitting <span class="speaker">(Ryszard)</span></li>
+  <li><strong>15:50-16:00:</strong> Closure words <span class="speaker">(Lucía &amp; Agustín)</span></li>
+</ul>
+
+  </section>
+
+  <br><br><br>
+  <div class="two-columns">
+    <div class="column", style="text-align: right">
+      <div class="bottom-button">
+        <h2><a href="/comp_neuro_workshop/team">Get to know the Team</a><h2>
+      </div>
+    </div>
+    <div class="column", style="text-align: left">
+      <div class="bottom-button">
+        <h2><a href="/comp_neuro_workshop/registration">Register Now</a><h2>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+    </div>
+    <footer>
+      Questions about the workshop? <br>
+      Contents: <a href="mailto:carlos.coronel@gbhi.org">carlos.coronel@gbhi.org </a> |
+      Organisation: <a href="mailto:jan-gabriel.hartel@ae.mpg.de">jan-gabriel.hartel@ae.mpg.de</a>
+    </footer>
+</body>
+</html>
