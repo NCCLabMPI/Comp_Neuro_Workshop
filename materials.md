@@ -31,6 +31,11 @@ os.environ['JAVA_HOME'] = jdk_installation_directory
 
 ```
 
+- Networkx: https://networkx.org/documentation/stable/install.html
+
+- Brain Connectivity Toolbox for Python: https://pypi.org/project/bctpy/
+
+- Numba: https://numba.readthedocs.io/en/stable/user/installing.html
 
 
 ---
