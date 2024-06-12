@@ -23,10 +23,11 @@ title: Workshop Program
   - Psychedelics and consciousness.
   - Transcranial ultrasound stimulation.
 
-### Lunch (12:00-13:30)
+### Lunch (12:00-13:00)
 
-### Afternoon (13:30-16:00)
+### Afternoon (13:00-16:00)
 
+- **13:00-13:30:** Setting up programming environment </span>
 - **13:30-14:40:** Tutorial I: information theory applied to fMRI and/or M/EEG data <span class="speaker">(Rubén, Marilyn)</span>
 - **14:40-15:00:** 20-minute coffee break
 - **15:00-16:00:** Basics of whole-brain modeling Part I <span class="speaker">(Carlos)</span>
@@ -59,10 +60,11 @@ title: Workshop Program
   - Real examples of modeling.
 - **11:00-12:00:** Tutorial III: DCM for fMRI and/or M/EEG, depending on participants’ interests <span class="speaker">(Ryszard)</span>
 
-### Lunch (12:00-13:30)
+### Lunch (12:00-13:00)
 
-### Afternoon (13:30-16:15)
+### Afternoon (13:00-16:15)
 
+- **13:00-13:30:** Space for open questions </span>
 - **13:30-14:30:** Examples of whole-brain modeling <span class="speaker">(Carlos)</span>
   - Aging and neurodegeneration.
   - Brain clocks.
