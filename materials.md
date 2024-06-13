@@ -20,14 +20,17 @@ The tutorials requires an updated version of Python (Python > 3.0). If you donâ€
 - Installable via Anaconda:
   - Jupyter Notebook: [Documentation here](https://jupyter.org/).
 
+
 - Installable via Anaconda package manager:
   - Networkx: [Documentation here](https://networkx.org/documentation/stable/install.html).
   - Numba: [Documentation here](https://numba.readthedocs.io/en/stable/user/installing.html).
   - PyTorch: [Documentation here](https://pytorch.org/)
 
-- Installable via Anaconda pip
+
+- Installable via Anaconda pip:
   - Brain Connectivity Toolbox for Python: [Documentation here](https://pypi.org/project/bctpy/)
   - THOI: [Documentation here](https://github.com/Laouen/THOI) (requires previous PyTorch installation)
+
 
 ### MATLAB
 - MATLAB: A copy of MATLAB. SPM12 is designed to work with MATLAB versions R2007a (7.4) to R2023b (9.15), and will not work with earlier versions. It only requires core MATLAB to run (i.e. no toolboxes).
