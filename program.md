@@ -12,7 +12,7 @@ title: Workshop Program
 ### Morning (8:45-12:00)
 
 - **8:45-9:15:** Registration and welcome
-- **9:15-9:30:** Opening words and introduction  <span class="speaker">(Lucía & Agustín)</span>
+- **9:15-9:30:** Opening words and introduction  <span class="speaker">(Lucía)</span>
 - **9:30-10:35:** Information Theory <span class="speaker">(Rubén, Marilyn)</span>
   - Fundamentals of information theory.
   - Introduction to high-order interactions.
@@ -70,4 +70,4 @@ title: Workshop Program
   - Brain clocks.
 - **14:30-14:50:** 20-minute coffee break
 - **14:50-15:50:** Tutorial III: Example of whole-brain modeling and fitting <span class="speaker">(Ryszard)</span>
-- **15:50-16:00:** Closure words <span class="speaker">(Lucía & Agustín)</span>
+- **15:50-16:00:** Closure words <span class="speaker">(Lucía)</span>

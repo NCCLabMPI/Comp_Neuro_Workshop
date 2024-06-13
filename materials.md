@@ -11,35 +11,29 @@ This information can alteratively be accessed [via GitHub](https://github.com/ca
 - Only your personal computer.
 
 ## Software:
-- An updated version of Python (Python > 3.0). If you don’t have Python already installed on your PC, we recommend installing Anaconda: [Download Anaconda](https://www.anaconda.com/)
-- Jupyter Notebook: [Download Jupyter Notebook](https://jupyter.org/). It can also be installed with Anaconda.
-- SPM12: [Download SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/download/)
+
+The tutorials will run in Python and MATLAB. The following software will be needed.
+
+### Python:
+- An updated version of Python (Python > 3.0). If you don’t have Python already installed on your PC, we recommend installing Anaconda: [Download Anaconda](https://www.anaconda.com/). Using Anaconda, you can create a specific environment for the workshop. Further, common packages can be loaded via the integrated package manager. Alternatively, all packages can also be installed using pip.
+
+- Installable via Anaconda:
+  - Jupyter Notebook: [Documentation here](https://jupyter.org/).
+
+-Installable via Anaconda package manager:
+  - Networkx: [Documentation here](https://networkx.org/documentation/stable/install.html).
+  - Numba: [Documentation here](https://numba.readthedocs.io/en/stable/user/installing.html).
+  - PyTorch: [Documentation here](https://pytorch.org/)
+
+- Installable via Anaconda pip
+  - Brain Connectivity Toolbox for Python: [Documentation here](https://pypi.org/project/bctpy/)
+  - THOI: [Documentation here](https://github.com/Laouen/THOI) (requires previous PyTorch installation)
+
+### MATLAB
 - MATLAB: A copy of MATLAB. SPM12 is designed to work with MATLAB versions R2007a (7.4) to R2023b (9.15), and will not work with earlier versions. It only requires core MATLAB to run (i.e. no toolboxes).
-- JIDT for Python:
-  - Download the latest version of JIDT from the [GitHub page](https://github.com/jlizier/jidt/wiki/Downloads)
-  - Install Java. Follow the instructions [here](https://github.com/jlizier/jidt/wiki/Installation) (only the first instruction under 'Dependencies').
-  - Within the code you're using, indicate where JAVA is installed. For example (Windows):
-
-``` python
-import os
-#Set the JAVA_HOME environment variable
-#Replace 'jdk_installation_directory' with the actual JDK installation directory
-jdk_installation_directory = 'C:/Program Files/Java/jdk-21'
-# Set JAVA_HOME for the current process
-os.environ['JAVA_HOME'] = jdk_installation_directory
-# To permanently set JAVA_HOME, you need to add it to the system environment variables
-
-```
-
-- Networkx: https://networkx.org/documentation/stable/install.html
-
-- Brain Connectivity Toolbox for Python: https://pypi.org/project/bctpy/
-
-- Numba: https://numba.readthedocs.io/en/stable/user/installing.html
-
+- SPM12: [Download SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/download/)
 
 ---
-
 
 # Recommended Literature
 
