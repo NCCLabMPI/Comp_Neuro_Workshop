@@ -15,12 +15,12 @@ This information can alteratively be accessed [via GitHub](https://github.com/ca
 The tutorials will run in Python and MATLAB. The following software will be needed.
 
 ### Python:
-- An updated version of Python (Python > 3.0). If you don’t have Python already installed on your PC, we recommend installing Anaconda: [Download Anaconda](https://www.anaconda.com/). Using Anaconda, you can create a specific environment for the workshop. Further, common packages can be loaded via the integrated package manager. Alternatively, all packages can also be installed using pip.
+The tutorials requires an updated version of Python (Python > 3.0). If you don’t have Python already installed on your PC, we recommend installing Anaconda: [Download Anaconda](https://www.anaconda.com/). Using Anaconda, you can create a specific environment for the workshop. Further, common packages can be loaded via the integrated package manager. Alternatively, all packages can also be installed using pip.
 
 - Installable via Anaconda:
   - Jupyter Notebook: [Documentation here](https://jupyter.org/).
 
--Installable via Anaconda package manager:
+- Installable via Anaconda package manager:
   - Networkx: [Documentation here](https://networkx.org/documentation/stable/install.html).
   - Numba: [Documentation here](https://numba.readthedocs.io/en/stable/user/installing.html).
   - PyTorch: [Documentation here](https://pytorch.org/)

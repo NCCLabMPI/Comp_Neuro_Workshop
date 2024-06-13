@@ -27,7 +27,7 @@ title: Workshop Program
 
 ### Afternoon (13:00-16:00)
 
-- **13:00-13:30:** Setting up programming environment </span>
+- **13:00-13:30:** Setting up programming environment
 - **13:30-14:40:** Tutorial I: information theory applied to fMRI and/or M/EEG data <span class="speaker">(Rubén, Marilyn)</span>
 - **14:40-15:00:** 20-minute coffee break
 - **15:00-16:00:** Basics of whole-brain modeling Part I <span class="speaker">(Carlos)</span>
@@ -64,7 +64,7 @@ title: Workshop Program
 
 ### Afternoon (13:00-16:15)
 
-- **13:00-13:30:** Space for open questions </span>
+- **13:00-13:30:** Space for open questions
 - **13:30-14:30:** Examples of whole-brain modeling <span class="speaker">(Carlos)</span>
   - Aging and neurodegeneration.
   - Brain clocks.
